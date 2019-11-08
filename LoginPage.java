@@ -28,8 +28,13 @@ public class LoginPage {
 		return driver.getTitle();
 	}
     public void clickonSubmit() {
+<<<<<<< HEAD
     	username.sendKeys("username");
     	password.sendKeys("password1");
+=======
+    	username.sendKeys("username1");
+    	password.sendKeys("password");
+>>>>>>> a342c39f0873946ac40c23a683a53bd4e9925994
     	submit.click();
     
 }}
