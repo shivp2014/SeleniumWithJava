@@ -29,7 +29,7 @@ public class LoginPage {
 	}
     public void clickonSubmit() {
     	username.sendKeys("username");
-    	password.sendKeys("password");
+    	password.sendKeys("password1");
     	submit.click();
     
 }}
