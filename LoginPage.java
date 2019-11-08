@@ -28,7 +28,7 @@ public class LoginPage {
 		return driver.getTitle();
 	}
     public void clickonSubmit() {
-    	username.sendKeys("username");
+    	username.sendKeys("username1");
     	password.sendKeys("password");
     	submit.click();
     
