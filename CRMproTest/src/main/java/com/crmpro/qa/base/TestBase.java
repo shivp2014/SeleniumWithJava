@@ -18,7 +18,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("G://MAVEN//PomTNGDD_FRAMEWORK//CRMproTest//src//main//java//com//crmpro//qa//config//config.properties");
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/crmpro/qa/config/config.properties");
 			prop.load(fis);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

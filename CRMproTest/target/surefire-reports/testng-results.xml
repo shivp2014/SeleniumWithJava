@@ -2,55 +2,49 @@
 <testng-results skipped="1" failed="0" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="102138" started-at="2019-10-06T12:15:41 IST" finished-at="2019-10-06T12:17:23 IST">
+  <suite name="Command line suite" duration-ms="146989" started-at="2019-11-09T12:57:41 IST" finished-at="2019-11-09T13:00:08 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="102138" started-at="2019-10-06T12:15:41 IST" finished-at="2019-10-06T12:17:23 IST">
+    <test name="Command line test" duration-ms="146989" started-at="2019-11-09T12:57:41 IST" finished-at="2019-11-09T13:00:08 IST">
       <class name="com.crmpro.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="setup" is-config="true" duration-ms="46296" started-at="2019-10-06T12:15:41 IST" finished-at="2019-10-06T12:16:27 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="setup" is-config="true" duration-ms="87720" started-at="2019-11-09T12:57:41 IST" finished-at="2019-11-09T12:59:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyhomepage()[pri:1, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="verifyhomepage" duration-ms="23" started-at="2019-10-06T12:16:27 IST" finished-at="2019-10-06T12:16:27 IST">
+        <test-method status="PASS" signature="verifyhomepage()[pri:1, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="verifyhomepage" duration-ms="124" started-at="2019-11-09T12:59:09 IST" finished-at="2019-11-09T12:59:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="teardown" is-config="true" duration-ms="838" started-at="2019-10-06T12:16:27 IST" finished-at="2019-10-06T12:16:28 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="teardown" is-config="true" duration-ms="1803" started-at="2019-11-09T12:59:09 IST" finished-at="2019-11-09T12:59:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="setup" is-config="true" duration-ms="12118" started-at="2019-10-06T12:16:28 IST" finished-at="2019-10-06T12:16:40 IST">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="setup" is-config="true" duration-ms="13735" started-at="2019-11-09T12:59:11 IST" finished-at="2019-11-09T12:59:24 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.0971361;">...</div>
-  (Session info: chrome=77.0.3865.90)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.645344;">...</div>
+  (Session info: chrome=78.0.3904.87)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-D3RMV492', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
-Session ID: e8c831347f75116deb16a927845d63fe]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57261}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c5cc7ba509c5218132c0426c57bf38]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.0971361;">...</div>
-  (Session info: chrome=77.0.3865.90)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.645344;">...</div>
+  (Session info: chrome=78.0.3904.87)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-D3RMV492', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
-Session ID: e8c831347f75116deb16a927845d63fe
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57261}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c5cc7ba509c5218132c0426c57bf38
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -108,42 +102,36 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyusernme()[pri:2, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="verifyusernme" duration-ms="0" started-at="2019-10-06T12:16:40 IST" finished-at="2019-10-06T12:16:40 IST">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="SKIP" signature="verifyusernme()[pri:2, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="verifyusernme" duration-ms="0" started-at="2019-11-09T12:59:24 IST" finished-at="2019-11-09T12:59:24 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.0971361;">...</div>
-  (Session info: chrome=77.0.3865.90)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.645344;">...</div>
+  (Session info: chrome=78.0.3904.87)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-D3RMV492', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
-Session ID: e8c831347f75116deb16a927845d63fe]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57261}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c5cc7ba509c5218132c0426c57bf38]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.0971361;">...</div>
-  (Session info: chrome=77.0.3865.90)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.645344;">...</div>
+  (Session info: chrome=78.0.3904.87)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-D3RMV492', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
-Session ID: e8c831347f75116deb16a927845d63fe
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57261}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 82c5cc7ba509c5218132c0426c57bf38
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -201,49 +189,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyusernme -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="teardown" is-config="true" duration-ms="-1570344400548" started-at="2019-10-06T12:16:40 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.HomePageTest@78c03f1f]" name="teardown" is-config="true" duration-ms="-1573284564964" started-at="2019-11-09T12:59:24 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.crmpro.qa.testcases.HomePageTest -->
       <class name="com.crmpro.qa.testcases.TestLoginPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="setup" is-config="true" duration-ms="14124" started-at="2019-10-06T12:16:40 IST" finished-at="2019-10-06T12:16:54 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="setup" is-config="true" duration-ms="10739" started-at="2019-11-09T12:59:24 IST" finished-at="2019-11-09T12:59:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testpagetitle()[pri:1, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="testpagetitle" duration-ms="14" started-at="2019-10-06T12:16:54 IST" finished-at="2019-10-06T12:16:54 IST">
+        <test-method status="PASS" signature="testpagetitle()[pri:1, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="testpagetitle" duration-ms="52" started-at="2019-11-09T12:59:35 IST" finished-at="2019-11-09T12:59:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testpagetitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="teardown" is-config="true" duration-ms="704" started-at="2019-10-06T12:16:54 IST" finished-at="2019-10-06T12:16:55 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="teardown" is-config="true" duration-ms="1369" started-at="2019-11-09T12:59:35 IST" finished-at="2019-11-09T12:59:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="setup" is-config="true" duration-ms="10733" started-at="2019-10-06T12:16:55 IST" finished-at="2019-10-06T12:17:06 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="setup" is-config="true" duration-ms="11895" started-at="2019-11-09T12:59:37 IST" finished-at="2019-11-09T12:59:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="crmlogotest()[pri:2, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="crmlogotest" duration-ms="49" started-at="2019-10-06T12:17:06 IST" finished-at="2019-10-06T12:17:06 IST">
+        <test-method status="PASS" signature="crmlogotest()[pri:2, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="crmlogotest" duration-ms="349" started-at="2019-11-09T12:59:49 IST" finished-at="2019-11-09T12:59:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmlogotest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="teardown" is-config="true" duration-ms="694" started-at="2019-10-06T12:17:06 IST" finished-at="2019-10-06T12:17:06 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="teardown" is-config="true" duration-ms="1133" started-at="2019-11-09T12:59:49 IST" finished-at="2019-11-09T12:59:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="setup" is-config="true" duration-ms="15309" started-at="2019-10-06T12:17:06 IST" finished-at="2019-10-06T12:17:22 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="setup" is-config="true" duration-ms="16586" started-at="2019-11-09T12:59:50 IST" finished-at="2019-11-09T13:00:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testlogin()[pri:3, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="testlogin" duration-ms="0" started-at="2019-10-06T12:17:22 IST" finished-at="2019-10-06T12:17:22 IST">
+        <test-method status="PASS" signature="testlogin()[pri:3, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="testlogin" duration-ms="1" started-at="2019-11-09T13:00:07 IST" finished-at="2019-11-09T13:00:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="teardown" is-config="true" duration-ms="1091" started-at="2019-10-06T12:17:22 IST" finished-at="2019-10-06T12:17:23 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crmpro.qa.testcases.TestLoginPage@5ec0a365]" name="teardown" is-config="true" duration-ms="1192" started-at="2019-11-09T13:00:07 IST" finished-at="2019-11-09T13:00:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

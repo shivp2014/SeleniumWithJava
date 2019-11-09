@@ -1,0 +1,23 @@
+2019-09-29 14:12:27,938  INFO [main] LoginTest:35 - ****************************** Starting test cases execution  *****************************************
+2019-09-29 14:12:43,419  INFO [main] LoginTest:39 - launching chrome broswer
+2019-09-29 14:12:50,402  INFO [main] LoginTest:46 - entering application URL
+2019-09-29 14:12:50,403  WARN [main] LoginTest:47 - Hey this just a warning message
+2019-09-29 14:12:50,404 FATAL [main] LoginTest:48 - hey this is just fatal error message
+2019-09-29 14:12:50,405 DEBUG [main] LoginTest:49 - this is debug message
+2019-09-29 14:12:50,442  INFO [main] LoginTest:55 - ****************************** starting test case *****************************************
+2019-09-29 14:12:50,443  INFO [main] LoginTest:56 - ****************************** freeCrmTitleTest *****************************************
+2019-09-29 14:12:51,042  INFO [main] LoginTest:59 - login page title is--->Free CRM #1 cloud software for any business large or small
+2019-09-29 14:12:51,103  INFO [main] LoginTest:62 - ****************************** ending test case *****************************************
+2019-09-29 14:12:51,107  INFO [main] LoginTest:63 - ****************************** freeCrmTitleTest *****************************************
+2019-09-29 14:12:52,525  INFO [main] LoginTest:85 - ****************************** Browser is closed *****************************************
+2019-09-29 14:12:52,555  INFO [main] LoginTest:35 - ****************************** Starting test cases execution  *****************************************
+2019-09-29 14:12:55,746  INFO [main] LoginTest:39 - launching chrome broswer
+2019-09-29 14:13:01,629  INFO [main] LoginTest:46 - entering application URL
+2019-09-29 14:13:01,630  WARN [main] LoginTest:47 - Hey this just a warning message
+2019-09-29 14:13:01,630 FATAL [main] LoginTest:48 - hey this is just fatal error message
+2019-09-29 14:13:01,631 DEBUG [main] LoginTest:49 - this is debug message
+2019-09-29 14:13:01,633  INFO [main] LoginTest:69 - ****************************** starting test case *****************************************
+2019-09-29 14:13:01,634  INFO [main] LoginTest:70 - ****************************** freemCRMLogoTest *****************************************
+2019-09-29 14:13:01,911  INFO [main] LoginTest:75 - ****************************** ending test case *****************************************
+2019-09-29 14:13:01,912  INFO [main] LoginTest:76 - ****************************** freemCRMLogoTest *****************************************
+2019-09-29 14:13:02,602  INFO [main] LoginTest:85 - ****************************** Browser is closed *****************************************

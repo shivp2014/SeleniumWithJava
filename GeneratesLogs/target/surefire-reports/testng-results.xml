@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="34606" started-at="2019-11-09T13:14:52 IST" finished-at="2019-11-09T13:15:27 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="34606" started-at="2019-11-09T13:14:52 IST" finished-at="2019-11-09T13:15:27 IST">
+      <class name="com.log4.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.log4.tests.LoginTest@1786dec2]" name="setup" is-config="true" duration-ms="23996" started-at="2019-11-09T13:14:52 IST" finished-at="2019-11-09T13:15:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freeCrmTitleTest()[pri:1, instance:com.log4.tests.LoginTest@1786dec2]" name="freeCrmTitleTest" duration-ms="14" started-at="2019-11-09T13:15:16 IST" finished-at="2019-11-09T13:15:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCrmTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.log4.tests.LoginTest@1786dec2]" name="tearDown" is-config="true" duration-ms="1886" started-at="2019-11-09T13:15:16 IST" finished-at="2019-11-09T13:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.log4.tests.LoginTest@1786dec2]" name="setup" is-config="true" duration-ms="6842" started-at="2019-11-09T13:15:18 IST" finished-at="2019-11-09T13:15:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freemCRMLogoTest()[pri:2, instance:com.log4.tests.LoginTest@1786dec2]" name="freemCRMLogoTest" duration-ms="53" started-at="2019-11-09T13:15:25 IST" finished-at="2019-11-09T13:15:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freemCRMLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.log4.tests.LoginTest@1786dec2]" name="tearDown" is-config="true" duration-ms="1726" started-at="2019-11-09T13:15:25 IST" finished-at="2019-11-09T13:15:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.log4.tests.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

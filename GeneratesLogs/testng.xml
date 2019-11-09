@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="generatelogs">
+	<listeners>
+		<listener class-name="com.extentreport.ExtentReporterNG" />
+	</listeners>
+
+	<test name ="logs test">
+		<classes>
+			<class name="com.log4.tests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
