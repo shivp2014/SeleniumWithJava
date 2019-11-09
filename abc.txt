@@ -1,3 +1,8 @@
 my text file sample
 welcome to my github second time
+<<<<<<< HEAD
 4th time changes
+=======
+
+3rd time change code
+>>>>>>> 27474968cd8493280a9c6150b1ebf31f972d502f
